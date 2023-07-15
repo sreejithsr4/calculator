@@ -25,6 +25,7 @@
 }
 .keys{
     font-size: 0;
+    background-color:white;
 }
 .a{
     width:25%;
@@ -47,5 +48,25 @@
     height:75px;
     border:none;
     padding:0;
-    background-color: rgb(161, 7, 250);
+    background: linear-gradient(to top right, #b403fa 0%, #e32ef3 100%);
+}
+html, body
+{
+    width: 100%;
+    height: 100%;
+}
+body{
+    width: 100%;
+    height: 100%;
+    background-attachment: fixed;
+    background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%);
+    overflow-x: hidden;
+    overflow-y: hidden;
+    
+}
+button{
+    transition: all .2s ease-in-out;
+}
+button:hover{
+    transform: scale(.9);
 }
