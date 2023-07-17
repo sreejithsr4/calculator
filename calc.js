@@ -2,10 +2,11 @@ function displayData(n){
     result.value+=n
 }
 function evaluateE(){
-    result.value=eval(result.value)
+    output.value=eval(result.value)
 }
 function clearA() {
     result.value=""
+    output.value=""
 }
 function clearOne(){
     result.value=result.value.slice(0,-1)
