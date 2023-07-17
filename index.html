@@ -9,31 +9,32 @@
 <body>
     <div class="calculator">
         <div class="display">
-            <div class="input" ><input type="text"></div>
+            <div class="input"  ><input type="text" id="result"></div>
             <div class="output"></div>
         </div>
         <div class="keys">
-            <button class="a">%</button>
-            <button class="a">+/-</button>
-            <button class="a">C</button>
-            <button class="b ">/</button>
-            <button class="a">7</button>
-            <button class="a">8</button>
-            <button class="a">9</button>
-            <button class="b ">X</button>
-            <button class="a">4</button>
-            <button class="a">5</button>
-            <button class="a">6</button>
-            <button class=" b">-</button>
-            <button class="a">1</button>
-            <button class="a">2</button>
-            <button class="a">3</button>
-            <button class=" b">+</button>
-            <button class="a">0</button>
-            <button class="a">,</button>
-            <button class="s">=</button>
+            <button class="a" onclick="percentage()">%</button>
+            <button class="a" onclick="clearA()">AC</button>
+            <button class="a" onclick="clearOne()">C</button>
+            <button class="b " onclick="displayData('/')">/</button>
+            <button class="a" onclick="displayData(7)">7</button>
+            <button class="a" onclick="displayData(8)">8</button>
+            <button class="a" onclick="displayData(9)">9</button>
+            <button class="b " onclick="displayData('*')">*</button>
+            <button class="a" onclick="displayData(4)">4</button>
+            <button class="a" onclick="displayData(5)">5</button>
+            <button class="a" onclick="displayData(6)">6</button>
+            <button class=" b" onclick="displayData('-')">-</button>
+            <button class="a" onclick="displayData(1)">1</button>
+            <button class="a" onclick="displayData(2)">2</button>
+            <button class="a" onclick="displayData(3)">3</button>
+            <button class=" b" onclick="displayData('+')">+</button>
+            <button class="a" onclick="displayData('0')">0</button>
+            <button class="a" onclick="displayData('.')">.</button>
+            <button class="s" onclick="evaluateE()">=</button>
            
         </div>
     </div>
 </body>
+<script src="./calc.js"></script>
 </html>
